@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ol: لیست های مرتب
+    ul: لیست های نامرتب
+    li: عناصر لیست های مرتب و نامرتب
+
+    صفات:
+    type: نوع شماره گذاری/ علامت عناصر لیست 
+    list-style-type: نوع شماره گذاری عناصر لیست
+
+    شماره گذاری لیست های مرتب:
+    1 a A i I
+
+    علامت لیست های نامرتب:
+    disc : پیش فرض
+    circle: دایره تو خالی
+    square: مربع تو پر
+    none: بدون علامت 
+
+
+    dl: لیست های توضیحات
+    dt:عنوان توضیحات
+    dd: توضیحات 
+-->
+
+    <!-- لیست های نامرتب -->
+    <!-- ul>li*5{item} -->
+    <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+    <ul type="circle">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+    <ul type="square">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+    <ul type="none">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <hr>
+    <!-- لیست های نامرتب تو در تو -->
+    <!-- ul>li*5{item$}>ul>li*2{subitem$} -->
+    <ul>
+        <li>item1
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li>item2
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li>item3
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li>item4
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li>item5
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <ul>
+        <li>item1
+            <ul>
+                <li>subitem1
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+                <li>subitem2
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>item2
+            <ul>
+                <li>subitem1
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+                <li>subitem2
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>item3
+            <ul>
+                <li>subitem1
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+                <li>subitem2
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>item4
+            <ul>
+                <li>subitem1
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+                <li>subitem2
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>item5
+            <ul>
+                <li>subitem1
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+                <li>subitem2
+                    <ul>
+                        <li>sub</li>
+                        <li>sub</li>
+                        <li>sub</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+    <h2>لیست های مرتب</h2>
+    <!-- لیست های مرتب -->
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <ol type="A">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+    <ol type="a">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <ol type="I">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <ol type="i">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+    <hr>
+<h3>لیست های مرتب تو در تو</h3>
+<!-- ol>li*5{item}>ol[type="a"]>li*3{subitem} -->
+<ol>
+    <li>item
+        <ol type="a">
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ol>
+    </li>
+    <li>item
+        <ol type="a">
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ol>
+    </li>
+    <li>item
+        <ol type="a">
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ol>
+    </li>
+    <li>item
+        <ol type="a">
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ol>
+    </li>
+    <li>item
+        <ol type="a">
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ol>
+    </li>
+</ol>
+
+
+
+<!-- لیست های ترکیبی -->
+<!-- ol>li*5{item}>ul>li*3{subitem} -->
+<ol>
+    <li>item
+        <ul>
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ul>
+    </li>
+    <li>item
+        <ul>
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ul>
+    </li>
+    <li>item
+        <ul>
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ul>
+    </li>
+    <li>item
+        <ul>
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ul>
+    </li>
+    <li>item
+        <ul>
+            <li>subitem</li>
+            <li>subitem</li>
+            <li>subitem</li>
+        </ul>
+    </li>
+</ol>
+
+    <hr>
+    <h2>لیست های توضیحات</h2>
+   
+    <dl>
+        <dt>Lorem, ipsum.</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, dolore.</dd>
+        <dt>Lorem, ipsum.</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ab officiis doloremque quo asperiores perspiciatis exercitationem natus! In, a suscipit!</dd>
+    </dl>
+    
+</body>
+</html>
